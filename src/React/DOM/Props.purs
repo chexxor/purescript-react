@@ -120,6 +120,9 @@ draggable = unsafeMkProps "draggable"
 encType :: String -> Props
 encType = unsafeMkProps "encType"
 
+for :: String -> Props
+for = unsafeMkProps "for"
+
 form :: String -> Props
 form = unsafeMkProps "form"
 
